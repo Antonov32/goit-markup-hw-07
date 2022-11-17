@@ -1,20 +1,20 @@
 .header {
   background-color: var(--background-color);
   border: 1px solid var(--background-portfolio-color);
-}
 
-.header__wrap {
-  display: flex;
-  align-items: center;
+  &__wrap {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .navigation {
   display: flex;
   align-items: center;
-}
 
-.navigation__style {
-  color: var(--accent-color);
+  &__style {
+    color: var(--accent-color);
+  }
 }
 
 .menu {
@@ -23,10 +23,10 @@
 
 .menu__item {
   margin-right: 50px;
-}
 
-.menu__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .menu__link {

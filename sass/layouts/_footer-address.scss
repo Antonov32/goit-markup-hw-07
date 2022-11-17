@@ -2,28 +2,28 @@
   background-color: var(--background-secondary-color);
   padding: 60px 0px;
   align-items: baseline;
-}
 
-.basement__wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
 }
 
 .address {
   display: inline-block;
-}
 
-.address__logo {
-  color: var(--background-color);
-}
+  &__logo {
+    color: var(--background-color);
+  }
 
-.address__style {
-  color: var(--accent-color);
-}
+  &__style {
+    color: var(--accent-color);
+  }
 
-.address__wrap {
-  margin-top: 20px;
+  &__wrap {
+    margin-top: 20px;
+  }
 }
 
 .contacts-basement__google {
@@ -35,10 +35,10 @@
 
 .contacts-basement__list {
   margin-bottom: 10px;
-}
 
-.contacts-basement__list:last-child {
-  margin-bottom: 0px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
 }
 
 .contacts-basement__link {
@@ -47,9 +47,9 @@
   color: rgba(255, 255, 255, 0.6);
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.contacts-basement__link:hover,
-.contacts-basement__link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
