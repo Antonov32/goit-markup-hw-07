@@ -399,7 +399,7 @@ body {
 .employees-icons__link:hover, .employees-icons__link:focus {
   background-color: var(--accent-color);
   fill: var(--main-btn-color);
-  outline: 1px dotted;
+  outline: 0px;
 }
 
 .regular-customers__title {
@@ -510,7 +510,7 @@ body {
 }
 .social-icons__link:hover, .social-icons__link:focus {
   background-color: var(--accent-color);
-  outline: 1px dotted;
+  outline: 0px;
 }
 
 .basement__mailing {
