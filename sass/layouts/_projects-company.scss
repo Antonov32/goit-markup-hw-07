@@ -3,9 +3,7 @@
 }
 
 .button-projects {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %center;
   flex-wrap: wrap;
   margin-bottom: 50px;
 
@@ -26,10 +24,7 @@
 
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
+  @include font(500, 16px, 1.62, 0.03em);
   background-color: #f5f4fa;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -88,10 +83,7 @@
 }
 
 .team-projects__text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.56;
-  letter-spacing: 0.03em;
+  @include font(400, 18px, 1.56, 0.03em);
   color: var(--main-btn-color);
 
   position: absolute;
@@ -118,18 +110,13 @@
 .team-projects__title {
   margin: 0;
   margin-bottom: 4px;
-
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  @include font(null, 18px, 2, 0.06em);
   color: var(--primary-color);
 }
 
 .team-projects__category {
   display: inline-block;
   margin: 0;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.03em;
+  @include font(null, 16px, 1.88, 0.03em);
   color: var(--secondary-color);
 }
