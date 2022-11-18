@@ -2,28 +2,28 @@
   background-color: var(--background-secondary-color);
   padding: 60px 0px;
   align-items: baseline;
+}
 
-  &__wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-  }
+.basement__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .address {
   display: inline-block;
+}
 
-  &__logo {
-    color: var(--background-color);
-  }
+.address__logo {
+  color: var(--background-color);
+}
 
-  &__style {
-    color: var(--accent-color);
-  }
+.address__style {
+  color: var(--accent-color);
+}
 
-  &__wrap {
-    margin-top: 20px;
-  }
+.address__wrap {
+  margin-top: 20px;
 }
 
 .contacts-basement__google {
