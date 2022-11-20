@@ -37,6 +37,7 @@
 
   &--active {
     position: relative;
+    color: var(--accent-color);
   }
 
   &--active::after {

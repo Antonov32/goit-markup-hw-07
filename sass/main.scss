@@ -1,18 +1,20 @@
 @import "./utils/vars";
-@import "./base/reset";
 @import "./utils/placehoders";
 @import "./utils/mixins";
+@import "./utils/hidden";
+
 @import "./base/common";
+@import "./base/reset";
 
 @import "./components/container";
 @import "./components/btn";
 @import "./components/logo";
+@import "./components/section";
 @import "./components/title";
 @import "./components/link";
 @import "./components/icons";
-@import "./utils/hidden";
+@import "./components/modal";
 
-@import "./base/body";
 @import "./layouts/header";
 @import "./layouts/hero";
 @import "./layouts/advantages";
@@ -22,6 +24,4 @@
 @import "./layouts/footer-address";
 @import "./layouts/footer-social";
 @import "./layouts/footer-mailing";
-@import "./components/modal";
-
 @import "./layouts/projects-company";

@@ -1,17 +1,5 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-}
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  background-color: var(--background-color);
 }
